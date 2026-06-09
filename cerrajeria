@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerrajero 24/7 Santa Cruz - Apertura de Puertas | Piyalo</title>
+    <meta name="description" content="Cerrajero urgente en Santa Cruz. Apertura de puertas, cambio de cerraduras. Llegamos en 30 minutos.">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#F2F3F5]">
+
+    <!-- Header simple -->
+    <nav class="bg-black text-white p-4">
+        <a href="../" class="font-bold text-xl">← PIYALO</a>
+    </nav>
+
+    <header class="bg-black text-white py-16 text-center">
+        <h1 class="text-4xl font-black">Cerrajero 24/7 en Santa Cruz</h1>
+        <p class="mt-4 text-xl">Apertura de puertas • Cambio de cerraduras • Llaves perdidas</p>
+        <a href="https://wa.me/59172635468?text=Hola%20necesito%20cerrajero" class="mt-8 inline-block bg-green-500 px-10 py-4 rounded-full text-xl font-bold">LLAMAR CERRAJERO YA</a>
+    </header>
+
+    <!-- Reseñas -->
+    <section class="py-8 bg-white text-center">
+        <p class="text-yellow-500 text-2xl">★★★★★</p>
+        <p class="text-sm">"Llegó en 20 minutos y abrió sin dañar la puerta" - Juan P.</p>
+    </section>
+
+    <!-- Servicios Detallados -->
+    <section class="py-12 px-6 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8">Servicios</h2>
+        <div class="space-y-6">
+            <div class="bg-white p-6 rounded-xl">🔑 Apertura de puertas (desde 150 Bs)</div>
+            <div class="bg-white p-6 rounded-xl">🔒 Cambio de cerraduras (desde 250 Bs)</div>
+            <div class="bg-white p-6 rounded-xl">🚗 Cerrajería automotriz</div>
+        </div>
+    </section>
+
+    <!-- Schema LocalBusiness + Service -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Piyalo Cerrajería Santa Cruz",
+      "telephone": "+59172635468",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Santa Cruz de la Sierra",
+        "addressRegion": "Santa Cruz",
+        "addressCountry": "BO"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": -17.7863, "longitude": -63.1812 },
+      "openingHours": "24/7"
+    }
+    </script>
+
+</body>
+</html>
